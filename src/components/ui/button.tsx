@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        "calc-number": "bg-calc-number text-calc-number-text hover:bg-calc-number/80 font-semibold text-lg h-16 w-16 rounded-lg shadow-lg transition-all active:scale-95",
+        "calc-operation": "bg-calc-operation text-calc-operation-text hover:bg-calc-operation/90 font-bold text-xl h-16 w-16 rounded-lg shadow-lg transition-all active:scale-95",
+        "calc-clear": "bg-calc-clear text-calc-clear-text hover:bg-calc-clear/90 font-bold text-lg h-16 w-16 rounded-lg shadow-lg transition-all active:scale-95",
+        "calc-equals": "bg-calc-operation text-calc-operation-text hover:bg-calc-operation/90 font-bold text-xl h-16 w-32 rounded-lg shadow-lg transition-all active:scale-95",
       },
       size: {
         default: "h-10 px-4 py-2",

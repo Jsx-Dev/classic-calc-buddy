@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				calc: {
+					display: 'hsl(var(--calc-display))',
+					'display-text': 'hsl(var(--calc-display-text))',
+					number: 'hsl(var(--calc-number))',
+					'number-text': 'hsl(var(--calc-number-text))',
+					operation: 'hsl(var(--calc-operation))',
+					'operation-text': 'hsl(var(--calc-operation-text))',
+					clear: 'hsl(var(--calc-clear))',
+					'clear-text': 'hsl(var(--calc-clear-text))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
